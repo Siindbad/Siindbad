@@ -1,0 +1,62 @@
+name: Update Profile Stats
+
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+        description: "GitHub username to query (optional)"
+        required: false
+        type: string
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve username
+        id: vars
+        shell: bash
+        run: |
+          USERNAME="${{ github.repository_owner }}"
+          if [ -n "${{ vars.README_STATS_USERNAME }}" ]; then
+            USERNAME="${{ vars.README_STATS_USERNAME }}"
+          fi
+          if [ -n "${{ inputs.username }}" ]; then
+            USERNAME="${{ inputs.username }}"
+          fi
+          echo "username=$USERNAME" >> "$GITHUB_OUTPUT"
+
+      - name: Update dark profile SVG stats
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python tools/update_readme_stats.py \
+            --username "${{ steps.vars.outputs.username }}" \
+            --svg assets/readme-top-dark.svg \
+            --cache-path tools/readme_stats_cache.json
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/readme-top-dark.svg tools/readme_stats_cache.json; then
+            echo "No stats changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/readme-top-dark.svg tools/readme_stats_cache.json
+          git commit -m "chore(profile): update GitHub stats"
+          git push

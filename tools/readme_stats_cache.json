@@ -1,0 +1,28 @@
+{
+  "repos": {
+    "Siindbad/HackHub-Editor-Source": {
+      "additions": 61763,
+      "commits": 46,
+      "deletions": 33234,
+      "oid": "08506a5a589c9258381deda78187b530a691b8a3"
+    },
+    "Siindbad/HackHub-Save-File-Editor": {
+      "additions": 67256,
+      "commits": 32,
+      "deletions": 67253,
+      "oid": "7690901076bceb6a8207daa0d99562187c142841"
+    },
+    "Siindbad/Siindbad": {
+      "additions": 66,
+      "commits": 2,
+      "deletions": 16,
+      "oid": "5ff18ff0e0709fadac4143be613094f5ec5b83b8"
+    },
+    "Siindbad/economymod": {
+      "additions": 0,
+      "commits": 0,
+      "deletions": 0,
+      "oid": null
+    }
+  }
+}
