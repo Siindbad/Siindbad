@@ -16,7 +16,7 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 </ns0:style>
 <ns0:rect width="1025px" height="420px" fill="#000000" rx="15" />
-<ns0:image x="15" y="5" width="350" height="385" preserveAspectRatio="xMidYMid meet" href="./sindbadlogo.png" ns1:href="./sindbadlogo.png" />
+<ns0:image x="15" y="5" width="350" height="385" preserveAspectRatio="xMidYMid meet" href="https://raw.githubusercontent.com/Siindbad/Siindbad/main/assets/sindbadlogo.png" ns1:href="https://raw.githubusercontent.com/Siindbad/Siindbad/main/assets/sindbadlogo.png" />
 <ns0:text x="390" y="30" fill="#c9d1d9">
 <ns0:tspan x="390" y="30">SIINDBAD</ns0:tspan> --------------------------------------------------------------
 <ns0:tspan x="390" y="50" class="cc">. </ns0:tspan><ns0:tspan class="key">OS</ns0:tspan>:<ns0:tspan class="cc"> .................. </ns0:tspan><ns0:tspan x="650" y="50" class="value">Windows 11, MacOS, Linux</ns0:tspan>
