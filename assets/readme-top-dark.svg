@@ -39,8 +39,8 @@ text, tspan {white-space: pre;}
 <ns0:tspan x="390" y="50" class="cc">. </ns0:tspan><ns0:tspan class="key">OS</ns0:tspan>:<ns0:tspan class="cc"> .................. </ns0:tspan><ns0:tspan x="650" y="50" class="value">Windows 11, MacOS, Linux</ns0:tspan>
 <ns0:tspan x="390" y="70" class="cc">. </ns0:tspan><ns0:tspan class="key">IDE</ns0:tspan>:<ns0:tspan class="cc"> ................. </ns0:tspan><ns0:tspan x="650" y="70" class="value">VSCode 1.109.2</ns0:tspan>
 <ns0:tspan x="390" y="90" class="cc">. </ns0:tspan>
-<ns0:tspan x="390" y="110" class="cc">. </ns0:tspan><ns0:tspan class="key">Languages</ns0:tspan>.<ns0:tspan class="key">Programming</ns0:tspan>:<ns0:tspan class="cc"> ..... </ns0:tspan><ns0:tspan x="650" y="110" class="value">Java, Python, JavaScript, C++</ns0:tspan>
-<ns0:tspan x="390" y="130" class="cc">. </ns0:tspan><ns0:tspan class="key">Languages</ns0:tspan>.<ns0:tspan class="key">Computer</ns0:tspan>:<ns0:tspan class="cc"> ....... </ns0:tspan><ns0:tspan x="650" y="130" class="value">HTML, CSS, JSON, TeX</ns0:tspan>
+<ns0:tspan x="390" y="110" class="cc">. </ns0:tspan><ns0:tspan class="key">Languages</ns0:tspan>.<ns0:tspan class="key">Programming</ns0:tspan>:<ns0:tspan class="cc"> ..... </ns0:tspan><ns0:tspan x="650" y="110" class="value">Java, Python, JavaScript, TeX</ns0:tspan>
+<ns0:tspan x="390" y="130" class="cc">. </ns0:tspan><ns0:tspan class="key">Languages</ns0:tspan>.<ns0:tspan class="key">Computer</ns0:tspan>:<ns0:tspan class="cc"> ....... </ns0:tspan><ns0:tspan x="650" y="130" class="value">HTML, CSS, JSON, TypeScript</ns0:tspan>
 <ns0:tspan x="390" y="150" class="cc">. </ns0:tspan><ns0:tspan class="key">Languages</ns0:tspan>.<ns0:tspan class="key">Real</ns0:tspan>:<ns0:tspan class="cc"> ................... </ns0:tspan><ns0:tspan x="650" y="150" class="value">English</ns0:tspan>
 <ns0:tspan x="390" y="170" class="cc">. </ns0:tspan>
 <ns0:tspan x="390" y="190" class="cc">. </ns0:tspan><ns0:tspan class="key">Hobbies</ns0:tspan>.<ns0:tspan class="key">Software</ns0:tspan>:<ns0:tspan class="cc"> .... </ns0:tspan><ns0:tspan x="650" y="190" class="value">Modding, Scripting, Gaming</ns0:tspan>
